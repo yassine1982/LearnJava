@@ -24,7 +24,16 @@ public class HelloYourName2Ways {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner sc1 = new Scanner(System.in);
+        System.out.print("Enter your first name : ");
+        String fn=  sc1.nextLine();
+
+        Scanner sc2= new Scanner(System.in);
+        System.out.print("Enter your last name : ");
+        String ln = sc2.nextLine();
+        System.out.println("Hello, " + fn +" "+ ln+ "!");
+        System.out.println("Or should I say: "+ fn +" "+ln);
+        
 
     }
     
